@@ -1,5 +1,5 @@
 ---
-# home page without title
+title: "" # home page does need title
 ---
 
 # 關於
