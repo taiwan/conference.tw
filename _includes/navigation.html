@@ -1,0 +1,10 @@
+<nav>
+	<h2>Navigation</h2>
+	<ul>
+	{% for item in site.navigation %}
+		<li{% if page.url contains item.url %} aria-current="true"{% endif %}>
+			<a href="{{ item.url }}">{{ item.title }}</a>
+		</li>
+	{% endfor %}
+	</ul>
+</nav>
